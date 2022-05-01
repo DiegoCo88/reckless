@@ -1,0 +1,113 @@
+h1{color:plum}
+h1{text-align: center;}
+h1{font-size: 2rem;}
+h1{font-weight: 900;}
+h1{font-family: 'Beau Rivage', cursive;}
+body {background-image: url(https://www.instagram.com/p/CcOOf-DPySe/);}
+body{background-size: contain;}
+body{background-repeat: no-repeat;}
+body{background-position: center;}
+p {font-family: 'Comic Neue', cursive;}
+
+body {
+  display: flex;
+  height: 600px;
+  flex-direction: column;
+  padding: 1rem;
+
+}
+
+#main{
+  display: flex;
+  flex: 1;}
+  article, nav, aside{
+    background-color: pink;
+  }
+
+
+a{font-size: 2rem; /* 20px */}
+a{text-align: justify;}
+
+html{ /* etiequeta raiz */
+    
+    font-size: 62,5%;
+}
+
+p {
+    font-size: 2rem; /* 20px */
+}
+
+h1 {
+    font-size: 4rem; /* 40px */
+}
+
+li{
+    font-size: 2rem; /* 25px */
+}
+p1{
+    front-size: 2rem; /* 25px */
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  <style>
+.city {
+  background-color: violet;
+  color: violet;
+  border: 2px solid violet;
+  margin: 20px;
+  padding: 20px;
+}
+.contenedor{
+background-color: white;
+/* clases de flox box */
+display: flex;
+flex-direction: row;
+/* flex-wrap: wrap; */
+/* flex-flow: row wrap-reverse */
+
+justify-content: center;
+justify-content: space-around;
+}
+
+.contenedor1{
+  background-color: white;
+/* clases de flox box */
+display: flex;
+flex-direction: row;
+/* flex-wrap: wrap; */
+/* flex-flow: row wrap-reverse */
+
+justify-content: center;
+justify-content: space-around;
+
+
+}
+
+.contenedor2{
+ 
+/* flex-wrap: wrap; */
+/* flex-flow: row wrap-reverse */
+
+justify-content: center;
+justify-content: space-around;
+
+}
+
+
+@media screen and (min-width: 768px) {
+  
+}
