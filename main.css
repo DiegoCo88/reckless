@@ -1,3 +1,16 @@
+@media screen and (max-width: 980px){
+  #contenedor{
+      width: 90%;
+  }
+  #contenido{
+      width: 60%;
+  }
+  #barra_lateral{
+      width:30%;
+  }
+}
+
+
 .main-wraper{
 
   background-image: url(http://us.123rf.com/450wm/apostrophe/apostrophe1304/apostrophe130400032/18916082-purple-pink-background-paper.jpg);
@@ -115,15 +128,17 @@ flex-direction: column;
 
 }
 
-@media screen and (max-width: 980px){
-  #contenedor{
-      width: 90%;
-  }
-  #contenido{
-      width: 60%;
-  }
-  #barra_lateral{
-      width:30%;
-  }
-}
 
+.images{
+
+  display: grid;
+  grid-template-areas: 
+  "section";
+  height: 50px;
+  grid-area: section;
+  display: contents;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+}
